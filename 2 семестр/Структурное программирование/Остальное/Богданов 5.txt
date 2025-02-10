@@ -1,0 +1,31 @@
+//Контрольная работа по программированию 1 вариант 5 этап
+// (x, y)
+// (0, 0) == true
+// (-2, 2) == true
+// (-1, 1) == true
+// (-3, 1) == true
+// (4, 0) == true
+// (2, 3) == false
+// (10, 10) == false
+// (3, -2) == false
+// (-1, -1) == false
+// (-2, -2) == false
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "Russian");
+
+	int ux, uy;
+
+	cout << "Введите x, y: ";
+	cin >> ux >> uy;
+
+	if ((uy <= 4 - abs(ux)) and (uy >= 0)) {
+		cout << "true" << endl;
+	}
+	else cout << "false" << endl;
+
+}

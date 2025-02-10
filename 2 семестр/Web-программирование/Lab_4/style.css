@@ -1,0 +1,29 @@
+p {
+	font-family: Arial;
+	background-color: #CEEAF7;
+	padding: 12px;
+	border-radius: 12px;
+}
+
+
+.image {
+	max-height: 50%;
+	border-radius: 12px;
+}
+
+.another-h1 {	
+	background-color: #D5C9DF;
+	border-bottom: 8px solid black;
+	padding: 8px;
+	text-align: center;
+}
+
+.another-h3 {
+	background-color: #DCB8CB;
+	margin-bottom: 24px;
+}
+
+.text_area {
+	font-size: 24px;
+	font-style: italic;
+}

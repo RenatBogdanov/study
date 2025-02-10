@@ -1,0 +1,34 @@
+//Контрольная работа по программированию 1 вариант 1 этап вычисление выражения,
+//ответ = -137.71 при a=3, b=4, c=5
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+	setlocale(LC_ALL, "Russian");
+	double a, b, c, ans, pi = 3.14159265358979323846;
+
+	system("color 1F");
+	cout << "Контрольная работа - вариант 1" << endl;
+	system("pause");
+	system("cls");
+	
+	system("color 2F");
+	cout << "Автор - Богданов Ренат, Группа 1ПИб-02-3оп-23" << endl;
+	system("pause");
+	system("cls");
+
+	system("color 31");
+	cout << "Введите переменные a, b, c (целые):" << endl;
+	cin >> a >> b >> c;
+	ans = sqrt(a * b + 1) / abs(a - b) - 5 * (pow(c, 2) + pi);
+	cout << "Ответ: " << ans << endl;
+	system("pause");
+	system("cls");
+
+	system("color 1F");
+	cout << "До свидания!" << endl;
+	system("pause");
+}
